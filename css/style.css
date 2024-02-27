@@ -176,12 +176,28 @@ section{
 	line-height: 24px;
 	letter-spacing: 0.2px;
 	text-align: left;
-
 }
 
 .header_in{
 	margin-bottom: 80px;
 }
+
+.task_tit{
+	font-family: 'Fraunces',arial, sans-serif;
+	font-size: 58px;
+	line-height: 64px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	max-width: 490px;
+	margin-bottom: 20px;
+}
+
+.task_txt{
+	max-width: 351px;
+	margin-bottom: 32px;
+}
+
+
 
 
 
