@@ -151,9 +151,26 @@ section{
 	margin: 0 auto;
 }
 
+.header_in{
+	margin-bottom: 100px;
+}
+
+.left_header{
+
+}
+
+.menu li{
+	display: inline;
+	align-items: center;
+	width: calc(( 100% - 72px) / 4);
+}
+
 .sign{
 	color: #006B99;
+}
 
+.header_in{
+	margin-bottom: 80px;
 }
 
 
