@@ -95,17 +95,16 @@ section{
 }
 .btn{
 	background: #0070A0;
-	font-weight: 400;
-	font-size: 17px;
-	line-height: 27px;
-	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: left;
 	color:#FFFFFF;
-	height: 43px;
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 174px;
+	width: 139px;
+	height: 36px;
 	padding: 14px 0;
 	transition: 0.3s;
 }
@@ -128,22 +127,23 @@ section{
 	background: #0070A0;
 	width: 100%;
 	height: 43px;
+	margin-bottom: 20px;
 }
 
 .theme{
-	display: inline;
     color:#FFFFFF;
-	max-width: 274px;
 	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: 0.2;
 	text-align: center;
+	margin-top: 15px;
 	margin: 0 auto;
+	padding-top: 13px;
+
 
 }
 .see_all{
-    color:#FFFFFF;
-	width: 128px;
+    color: #CCE5F3;
 	font-size: 13px;
 	line-height: 18px;
 	letter-spacing: 0.2;
@@ -152,21 +152,31 @@ section{
 }
 
 .header_in{
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .left_header{
-
+	align-items: center;
 }
 
+.logo{
+	margin-right: 37px;
+}
+.menu{
+	width: 320px;
+}
 .menu li{
-	display: inline;
-	align-items: center;
-	width: calc(( 100% - 72px) / 4);
+	font-size: 15px;
 }
 
 .sign{
 	color: #006B99;
+	padding-right: 31px;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: left;
+
 }
 
 .header_in{
