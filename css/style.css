@@ -131,7 +131,7 @@ section{
 }
 
 .theme{
-    display: inline; 
+	display: inline;
     color:#FFFFFF;
 	max-width: 274px;
 	font-size: 14px;
@@ -150,3 +150,11 @@ section{
 	text-align: center;
 	margin: 0 auto;
 }
+
+.sign{
+	color: #006B99;
+
+}
+
+
+
