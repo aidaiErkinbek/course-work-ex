@@ -130,3 +130,23 @@ section{
 	height: 43px;
 }
 
+.theme{
+    display: inline; 
+    color:#FFFFFF;
+	max-width: 274px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.see_all{
+    color:#FFFFFF;
+	width: 128px;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 0.2;
+	text-align: center;
+	margin: 0 auto;
+}
