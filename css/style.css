@@ -216,7 +216,60 @@ section{
 	margin-bottom: 159px;
 }
 
+.card_img{
+	width: 32px;
+	height: 32px;
+	padding-top: 32px;
+	padding-left: 32px;
+}
 
+.card_tit{
+	font-family: Fraunces;
+	font-size: 25px;
+	line-height: 31px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	margin-bottom: 13px;
+}
 
+.card_txt{
+	font-family: Inter;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	width: 287px;
+}
 
+.card{
+	background:  #FAEA73;
+	width: 355px;
+	height: 250px;
+	margin-bottom: 120px;
+}
+
+.card_in{
+	padding: 32px 32px;
+}
+
+.card_more{
+	background: #CCEFF6;
+	margin-bottom: 120px;
+}
+
+.card_safe{
+	background: #F7CEDC;
+	margin-bottom: 120px;
+}
+.card_logo{
+	background: url(../img/icons/card1.svg) no-repeat;
+}
+
+.card_logo__more{
+	background-image: url(../img/icons/card2.svg) left no-repeat;
+}
+
+.card_logo__safe{
+	background: url(../img/icons/card3.svg);
+}
 
