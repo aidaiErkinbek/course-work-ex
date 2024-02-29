@@ -273,6 +273,10 @@ section{
 	background: url(../img/icons/card3.svg);
 }
 
+.options{
+	background: #F7F9FA;
+	margin-bottom: 108px;
+}
 .opt_tit{
 	font-family: Fraunces;
 	font-size: 42px;
@@ -281,7 +285,6 @@ section{
 	text-align: left;
 	width: 650px;
 	margin-bottom: 34px;
-	border-bottom:1px solid #C2CDD8 ;
 }
 
 .logo_tit{
@@ -303,7 +306,6 @@ section{
 	text-align: left;
 	color: #626A72;
 	border-top: 1px solid #C2CDD8;
-	;
 }
 
 .opt_logo,
