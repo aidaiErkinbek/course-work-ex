@@ -252,8 +252,13 @@ section{
 	background: #F7CEDC;
 	margin-bottom: 120px;
 }
-.card_logo{
+.card_logo,
+.card_logo__more,
+.card_logo__safe{
 	background: url(../img/icons/card1.svg) no-repeat;
+	display: block;
+	width: 52px;
+	height: 52px;
 }
 
 .card_logo__more{
@@ -261,7 +266,7 @@ section{
 }
 
 .card_logo__safe{
-	background: url(../img/icons/card3.svg);
+	background: url(../img/icons/card3.svg)no-repeat;
 }
 
 .options{
