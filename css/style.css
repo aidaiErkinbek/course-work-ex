@@ -350,7 +350,12 @@ section{
 	width: 221px;
 }
 
-.wh_logo,
+.wh_logoes{
+	display: block;
+	width: 55px;
+	height: 55px;
+}
+.wh_logo__get,
 .wh_logo_safe{
 	background: url(../img/icons/wh1.svg) no-repeat;
 	display: block;
@@ -368,6 +373,9 @@ background: url(../img/icons/wh2.svg);
 
 .blue_set{
 	background: #0070A0;
+}
+.auto{
+	margin-bottom: 120px;
 }
 
 .set_tit{
@@ -422,15 +430,15 @@ background: url(../img/icons/wh2.svg);
 }
 
 .auto_logo__inf{
-	background: url(../img/icons/auto2.svg);
+	background: url(../img/icons/auto2.svg)no-repeat;
 }
 
 .auto_logo__all{
-	background: url(../img/icons/auto3.svg);
+	background: url(../img/icons/auto3.svg)no-repeat;
 }
 
 .auto_logo__stay{
-	background: url(../img/icons/auto4.svg);
+	background: url(../img/icons/auto4.svg)no-repeat;
 }
 .blog_tit{
 	font-family: Fraunces;
@@ -446,4 +454,9 @@ background: url(../img/icons/wh2.svg);
 .blog_txt{
 	font-size: 14px;
 	line-height: 24px;
+	width: 221px;
+}
+
+.smart .sec_tit{
+	margin-bottom: 80px;
 }
