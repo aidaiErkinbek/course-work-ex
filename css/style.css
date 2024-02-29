@@ -130,6 +130,10 @@ section{
 	margin-bottom: 20px;
 }
 
+.light{
+	background: #F7F9FA;
+}
+
 .theme{
     color:#FFFFFF;
 	font-size: 14px;
@@ -261,7 +265,6 @@ section{
 }
 
 .options{
-	background: #F7F9FA;
 	margin-bottom: 108px;
 }
 .opt_tit{
@@ -456,7 +459,9 @@ background: url(../img/icons/wh2.svg);
 	line-height: 24px;
 	width: 221px;
 }
-
+.smart{
+	margin-bottom: 80px;
+}
 .smart .sec_tit{
 	margin-bottom: 80px;
 }
@@ -469,7 +474,7 @@ background: url(../img/icons/wh2.svg);
 }
 
 .btn_bl,
-.tn_bl__t,
+.btn_bl__t,
 .btn_bl__n{
 	font-size: 12px;
 	line-height: 16px;
@@ -487,14 +492,11 @@ background: url(../img/icons/wh2.svg);
 }
 
 .btn_bl__t{
-	width: 122px;
-	height: 22px;
-	padding: 11px 0;
+	width: 112px;
 }
 
 .btn_bl__n{
-	width: 122px;
-	height: 22px;
+	width: 60px;
 	padding: 11px 0;
 }
 
