@@ -460,3 +460,62 @@ background: url(../img/icons/wh2.svg);
 .smart .sec_tit{
 	margin-bottom: 80px;
 }
+
+.smart_link{
+	font-size: 17px;
+	line-height: 27px;
+	text-align: center;
+	color: #0070A0;
+}
+
+.btn_bl,
+.tn_bl__t,
+.btn_bl__n{
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.4px;
+	text-align: center;
+	color: #2C90C9;
+    background: #E6F7FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 122px;
+	height: 22px;
+	padding: 11px 0;
+	transition: 0.3s;
+}
+
+.btn_bl__t{
+	width: 122px;
+	height: 22px;
+	padding: 11px 0;
+}
+
+.btn_bl__n{
+	width: 122px;
+	height: 22px;
+	padding: 11px 0;
+}
+
+.smart_tit{
+	font-size: 25px;
+	line-height: 31px;
+	width: 288px;
+	margin-bottom: 11px;
+}
+
+.smart_txt{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 13px;
+	width: 307px;
+}
+
+.smart_date{
+	font-size: 12px;
+	line-height: 20px;
+}
+.smart_card .img{
+	margin-bottom: 25px;
+}
