@@ -521,3 +521,24 @@ background: url(../img/icons/wh2.svg);
 .smart_card .img{
 	margin-bottom: 25px;
 }
+
+.start_in{
+	padding: 64px 564px 17px 48px;
+}
+.start_txt{
+	font-size: 18px;
+	line-height: 27px;
+	width: 481px;
+	margin-bottom: 35px;
+}
+
+.start .container{
+	background: #E6F7FF;
+	width: 1130px;
+	height: 370px;
+	margin-bottom: 126px;
+}
+
+.start .btn{
+	margin-bottom: 18px;
+}
