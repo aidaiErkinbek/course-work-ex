@@ -273,3 +273,67 @@ section{
 	background: url(../img/icons/card3.svg);
 }
 
+.opt_tit{
+	font-family: Fraunces;
+	font-size: 42px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	width: 650px;
+	margin-bottom: 34px;
+	border-bottom:1px solid #C2CDD8 ;
+}
+
+.logo_tit{
+	font-family: Fraunces;
+	font-size: 21px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #1F1F1F;
+    margin-bottom: 15px;
+	border-top: 1px solid #C2CDD8;
+}
+
+.logo_tit__gr{
+	font-family: Fraunces;
+	font-size: 21px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #626A72;
+	border-top: 1px solid #C2CDD8;
+	;
+}
+
+.opt_logo,
+.opt_logo__ex,
+.opt_logo__full,
+.opt_logo__opt{
+	background: url(../img/icons/opt1.svg)no-repeat;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+.opt_logo__ex{
+	background: url(../img/icons/opt2.svg)
+}
+
+.opt_logo__full{
+	background: url(../img/icons/opt3.svg) no-repeat;
+}
+
+.opt_logo__opt{
+	background: url(../img/icons/opt4.svg) no-repeat;
+}
+
+.opt_txt{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	width: 363px;
+	margin-bottom: 22px;
+}
