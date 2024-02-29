@@ -55,6 +55,7 @@ body{
 	font-size: 20px;
 	line-height: 30px;
 	letter-spacing: 0.2;
+	text-align: left;
 	color: #1F1F1F;
 	width: 100%;
 	font-family: 'Inter', arial, sans-serif;
@@ -78,8 +79,6 @@ section{
 	font-weight: 400;
 	line-height: 50px;
 	letter-spacing: 0.2px;
-	text-align: left;
-
 }
 .color{
 	color: #F7F9FA;
@@ -139,8 +138,6 @@ section{
 	margin-top: 15px;
 	margin: 0 auto;
 	padding-top: 13px;
-
-
 }
 .see_all{
     color: #CCE5F3;
@@ -173,7 +170,6 @@ section{
 	padding-right: 31px;
 	font-size: 15px;
 	line-height: 24px;
-	text-align: left;
 }
 
 .header_in{
@@ -184,7 +180,6 @@ section{
 	font-family: 'Fraunces',arial, sans-serif;
 	font-size: 58px;
 	line-height: 64px;
-	text-align: left;
 	max-width: 490px;
 	margin-bottom: 20px;
 }
@@ -223,7 +218,6 @@ section{
 	font-family: Fraunces;
 	font-size: 25px;
 	line-height: 31px;
-	text-align: left;
 	margin-bottom: 13px;
 }
 
@@ -231,7 +225,6 @@ section{
 	font-family: Inter;
 	font-size: 15px;
 	line-height: 24px;
-	text-align: left;
 	width: 287px;
 }
 
@@ -275,7 +268,6 @@ section{
 	font-family: Fraunces;
 	font-size: 42px;
 	line-height: 50px;
-	text-align: left;
 	width: 650px;
 	margin-bottom: 34px;
 }
@@ -284,7 +276,6 @@ section{
 	font-family: Fraunces;
 	font-size: 21px;
 	line-height: 25px;
-	text-align: left;
     margin-bottom: 15px;
 	border-top: 1px solid #C2CDD8;
 }
@@ -293,7 +284,6 @@ section{
 	font-family: Fraunces;
 	font-size: 21px;
 	line-height: 25px;
-	text-align: left;
 	color: #626A72;
 	border-top: 1px solid #C2CDD8;
 }
@@ -320,11 +310,11 @@ section{
 	background: url(../img/icons/opt4.svg) no-repeat;
 }
 
-.opt_txt{
+.opt_txt,
+.blog_txt,
+.wh_txt__get{
 	font-size: 16px;
-	font-weight: 400;
 	line-height: 24px;
-	text-align: left;
 	width: 363px;
 	margin-bottom: 22px;
 }
@@ -339,7 +329,6 @@ section{
 	font-family: Fraunces;
 	font-size: 42px;
 	line-height: 50px;
-	text-align: left;
 	width: 300px;
 }
 
@@ -347,15 +336,18 @@ section{
 	font-family: Fraunces;
 	font-size: 25px;
 	line-height: 31px;
-	text-align: left;
 	margin-bottom: 20px;
 }
 
-.wh_txt{
+.wh_txt,
+.blog_txt__inf{
 	font-size: 15px;
 	line-height: 24px;
-	text-align: left;
     width: 223px;
+}
+
+.wh_txt__get{
+	width: 221px;
 }
 
 .wh_logo,
@@ -370,6 +362,10 @@ section{
 background: url(../img/icons/wh2.svg);
 }
 
+.set{
+	margin-bottom: 120px;
+}
+
 .blue_set{
 	background: #0070A0;
 }
@@ -378,7 +374,6 @@ background: url(../img/icons/wh2.svg);
 	font-family: Fraunces;
 	font-size: 42px;
 	line-height: 50px;
-	text-align: left;
 	margin-bottom: 18px;
 	color: #FFFFFF;
 }
@@ -386,7 +381,6 @@ background: url(../img/icons/wh2.svg);
 .set_txt{
 	font-size: 18px;
 	line-height: 27px;
-	text-align: left;
 	width: 481px;
 	margin-bottom: 20px;
 	color: #FFFFFF;
@@ -395,11 +389,61 @@ background: url(../img/icons/wh2.svg);
 .set_list{
 	font-size: 16px;
 	line-height: 22px;
-	text-align: left;
     color: #FFFFFF;
 	margin-bottom: 16px;
 }
 
 .set_lilnk{
 	color: #FFFFFF;
+}
+
+.sec_tit{
+	font-family: Fraunces;
+	font-size: 42px;
+	line-height: 50px;
+	margin-bottom: 21px;
+}
+
+.sec_txt{
+	font-size: 18px;
+	line-height: 27px;
+	width: 643px;
+	margin-bottom: 67px;
+}
+
+.auto_logo,
+.auto_logo__inf,
+.auto_logo__all,
+.auto_logo__stay{
+	background: url(../img/icons/auto1.svg)no-repeat;
+	display: block;
+    width: 55px;
+	height: 55px;
+}
+
+.auto_logo__inf{
+	background: url(../img/icons/auto2.svg);
+}
+
+.auto_logo__all{
+	background: url(../img/icons/auto3.svg);
+}
+
+.auto_logo__stay{
+	background: url(../img/icons/auto4.svg);
+}
+.blog_tit{
+	font-family: Fraunces;
+	font-size: 25px;
+	line-height: 31px;
+	letter-spacing: 0.2px;
+	margin-bottom: 11px;
+}
+
+.blog_txt__inf{
+	width: 235px;
+}
+.blog_txt{
+	font-size: 14px;
+	line-height: 24px;
 }
