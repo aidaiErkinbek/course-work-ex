@@ -293,7 +293,6 @@ section{
 	line-height: 25px;
 	letter-spacing: 0.2px;
 	text-align: left;
-	color: #1F1F1F;
     margin-bottom: 15px;
 	border-top: 1px solid #C2CDD8;
 }
@@ -338,4 +337,52 @@ section{
 	text-align: left;
 	width: 363px;
 	margin-bottom: 22px;
+}
+
+.whirl_in{
+	display: flex;
+}
+.whirl_left{
+	margin-right: 98px;
+}
+.whirl_tit{
+	font-family: Fraunces;
+	font-size: 42px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	width: 300px;
+}
+
+.wh_tit{
+	font-family: Fraunces;
+	font-size: 25px;
+	line-height: 31px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.wh_txt{
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	text-align: left;
+    width: 223px;
+}
+
+.wh_logo,
+.wh_logo_safe{
+	background: url(../img/icons/wh1.svg) no-repeat;
+	display: block;
+	width: 55px;
+	height: 55px;
+}
+
+.wh_logo_safe{
+background: url(../img/icons/wh2.svg);
+}
+
+.blue_set{
+	background: #0070A0;
 }
